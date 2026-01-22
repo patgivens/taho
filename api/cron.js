@@ -2,7 +2,7 @@ export const config = {
   maxDuration: 300, // 5 minutes
 };
 
-const TARGET_URL = "https://taho-theta.vercel.app/api/index"; // Replace with your target URL
+const TARGET_URL = "taho-theta.vercel.app"; // Replace with your target URL
 const CONCURRENCY = 1000; // Keeps total concurrent requests under 29,000
 const INTERVAL = 10_000; // 10 seconds
 
